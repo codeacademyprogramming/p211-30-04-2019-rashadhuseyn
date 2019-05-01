@@ -1,0 +1,119 @@
+* {
+box-sizing: border-box;
+text-decoration: none;
+
+}
+
+header {
+   background-color: #3b5998;  
+
+}
+.container {
+    width: 70%;
+    margin: auto; }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 4px; 
+         align-items: center;
+         width: 80%;
+    }
+
+    .facebook {
+        width: 50%;
+    }
+ img {
+    width: 170px;
+    padding-top: 10px;
+    }
+
+
+
+    .head {
+        display: block;
+    
+    }
+    button {
+        background-color: #5b7eca;
+        width: 160px;
+        font-size: 9px;
+    }
+.main {
+    display: flex;
+    
+  
+}
+.input {
+  display: block;
+    width: 140px;
+}
+
+.label ,.labelinput {
+    display: flex;
+    height: 25px;
+}
+
+.labelinput{
+justify-content: flex-start;
+
+}
+div.child img{
+width: 50px;
+}
+.font {
+    
+    justify-content: space-between;
+}
+.child {
+display: flex;
+ align-items: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+    div.font {
+display: flex;
+padding: 30px;
+justify-content: space-between;
+   }
+div.form > input {
+display: block;
+padding: 6px;
+width: 95%;
+margin: 10px auto 0;
+border-radius: 4px;
+
+}
+.name {
+    display: flex;
+justify-content: space-around;
+}
+.name > input {
+width: 45%;
+padding: 6px;
+border-radius: 4px;
+}
+.question {
+    display: flex;
+    align-items: center;
+}
+
+.gend {
+    display: flex;
+}
+
+
+.connect{
+   width: 40%; 
+}
+
+.form > button {
+    background-color: #69a74e;
+    width: 12em;
+    padding: 12px;
+    border-radius: 10px;
+}
